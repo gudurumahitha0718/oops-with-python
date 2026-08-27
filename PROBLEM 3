@@ -1,0 +1,15 @@
+class rectangle:
+def area (self,l,b):
+print (l*b)
+def volume (self,l,b,h):
+print (l*b*h)
+l=int(input("enter L= "))
+b=int(input("enter B= "))
+h=int(input("enter H= "))
+r1=rectangle()
+r1.area(l,b)
+r1.volume(l,b,h)
+
+Enter L=5
+Enter B=6
+Enter H=7
